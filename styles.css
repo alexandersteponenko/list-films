@@ -1,0 +1,118 @@
+body {
+  width: 100%;
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  color: #f3f6f9;
+  background: rgb(24, 24, 24);
+}
+.container {
+  width: 960px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  padding: 0 70px;
+  margin: 80px 0 45px 0;
+}
+.header__menu {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.list__movies,
+.number__date {
+  border-radius: 200px;
+  padding: 10px 25px;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  background: #6532f8;
+  border: 1px solid #6532f8;
+}
+.title {
+  font-size: 120px;
+  line-height: 138px;
+}
+.listMovies__wrapper {
+  padding: 70px;
+  border-radius: 20px;
+  background: #232323;
+}
+.listMovies__name {
+  margin-bottom: 40px;
+  display: flex;
+}
+.movieInput__input {
+  width: 55%;
+  font-size: 30px;
+  font-family: inherit;
+  letter-spacing: -0.02em;
+  border-bottom: 1px solid #f3f6f9;
+  opacity: 0.5;
+  color: inherit;
+  background-color: transparent;
+}
+input {
+  outline: none;
+  border: none;
+}
+.input__btn {
+  display: block;
+  position: relative;
+}
+.movieBtn {
+  cursor: pointer;
+  border: inherit;
+  background-color: inherit;
+}
+.vector {
+  position: absolute;
+  top: 17px;
+  left: 22px;
+}
+.movieList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+  overflow-y: auto;
+}
+.movieItem {
+  display: flex;
+  padding: 30px 25px;
+  gap: 20px;
+  align-items: center;
+  background-color: #3a3939;
+  border-radius: 10px;
+}
+.movieItem__list {
+  opacity: 0.3;
+}
+.btn-selected {
+  width: 19px;
+  height: 18px;
+  border: 1px solid #f3f6f9;
+  border-radius: 100px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+.btn-selected-warning {
+  background-color: rgb(101, 50, 248);
+}
+.movieName {
+  width: 650px;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+}
+.movieName__line-through {
+  text-decoration: line-through;
+  opacity: 0.8;
+}
+.btn-delete {
+  width: 23px;
+  height: 23px;
+  background-image: url(cross.png);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

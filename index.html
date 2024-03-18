@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>список фильмов</title>
+    <link rel="icon" href="films-icon.png" type="img/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header__menu">
+          <p class="list__movies">список фильмов</p>
+          <p class="number__date">2024</p>
+        </div>
+        <h1 class="title">Посмотреть</h1>
+      </div>
+      <div class="listMovies__wrapper">
+        <div class="listMovies__name">
+          <input
+            id="movieInput"
+            class="movieInput__input"
+            type="text"
+            placeholder="Добавить фильм"
+          />
+          <div class="input__btn">
+            <button id="addMovieBtn" class="movieBtn">
+              <img src="elips.png" alt="фон кнопки" />
+              <img class="vector" src="Vector.png" alt="изображение кнопки" />
+            </button>
+          </div>
+        </div>
+        <ul id="movieList" class="movieList"></ul>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
